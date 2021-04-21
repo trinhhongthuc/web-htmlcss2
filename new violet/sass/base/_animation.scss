@@ -1,0 +1,42 @@
+
+@keyframes animated-up-down {
+    0% {
+        transform: translateY(2rem);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+
+@keyframes tht {
+  
+    20% {
+        opacity: 0.2;
+        transform: scale(4rem);
+        color: blue;
+
+    }
+   
+    40% {
+        opacity: 0.4;
+        transform: scale(3rem);
+        color: green;
+
+    }
+    
+    80% {
+        opacity: 0.8;
+        transform: scale(2rem);
+        color: yellow;
+
+    }
+  
+    100% {
+        opacity: 1;
+        transform: scale(1rem);
+        color: violet;
+
+    }
+}

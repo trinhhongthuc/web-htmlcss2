@@ -1,0 +1,204 @@
+@import "./abstract/variable";
+
+.header {
+  
+
+    font-weight: 400;
+    &__wrapper {
+        display: flex;
+        padding: 3.2rem 6rem;
+        
+       
+    }
+
+    &__logo-primary {
+        width: 17%;
+    }
+
+    &__menu {
+        display: flex;
+        width: 35%;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 0;
+
+        &-item {
+            list-style: none;
+            position: relative;
+
+            &-link {
+             
+                font-size: 1.8rem;
+                color:$color-black;
+                text-decoration: none;
+                padding-bottom: 3px;
+                transition: border 0.1s ;
+
+                &:hover {
+                    border-bottom: 2px solid $color-black;
+                }
+
+                &--active {
+                    border-bottom: 2px solid $color-black;
+                }
+            }
+
+            &__sub-menu {
+                position: absolute;
+                top: calc( 100% + 7px);
+                left: 0;
+                margin-bottom: 0;
+                width: 22.2rem;
+                box-shadow: 0 0 3px $color-shadow;
+                padding: 1.5rem 0;
+                display: none;
+                animation: animated-up-down linear 0.5s;
+                z-index: 2;
+                background: $color-white;
+                
+
+                li {
+                    list-style: none;
+
+                    a {
+                        font-size: 1.7rem;
+                        font-weight: 400;
+                        color:$color-black;
+                        padding: 0.5rem 0 0.5rem 1.3rem ;
+                        display: block;
+                        text-transform: capitalize;
+                    }
+                }
+            }
+
+            &:hover &__sub-menu {
+                display: block;
+                
+            }
+
+            &:nth-child(2)::after {
+                content: "";
+                position: absolute;
+                top: calc(100% + 3px);
+                left: 0;
+                width: 4rem;
+                height: 1.3rem;
+            }
+
+            
+        }
+    }
+
+    &__login {
+        display: flex;
+        width: 24%;
+        justify-content: flex-end;
+        align-items: center;
+
+        &-user {
+            font-size:  1.8rem;
+            color: $color-black;
+            text-decoration: none;
+        }
+
+        &-register {
+            margin-right: 1rem;
+        }
+
+        &-sign-in {
+            color:#666 ;
+            &:hover {
+                color: #666;
+            }
+        }
+    }
+
+    &__directional {
+        display: flex;
+        width: 24%;
+        justify-content: flex-end;
+        align-items: center;
+
+        
+
+        &-icon {
+            cursor: pointer;
+            text-align: center;
+            margin-left: 1.5rem;
+            position: relative;
+
+                
+            &-wrapper {
+                 padding: 0.5rem;
+            }
+
+            &-number-card {
+                position: absolute;
+                width: 1.8rem;
+                height: 1.8rem;
+                line-height: 1.5rem;
+                background: $color-white;
+                top: 50%;
+                left: -0.4rem;
+                border: 2px solid $color-primary;
+                border-radius: 100rem;
+                font-size: 1rem;
+                font-weight: 500;
+
+
+            }
+        }
+        
+    }
+
+    &__abs {
+        background : $color-primary;
+        height: 5.2rem;
+        width: 100%;
+        padding: 0 6rem;
+        
+
+        &-wrapper {
+            width: 33.33333%;
+            display: flex;
+            align-items: center;
+            font-size: 1.6rem;
+            color:$color-white;
+
+            &-img {
+                width: 3rem;
+                height: 3rem;
+                margin-right: 1.5rem;
+            }
+
+            &-img-free-ship {
+                width: 3.4rem;
+                height: 1.8rem;
+            }
+
+            &-img-voucher {
+                width: 2.9rem;
+                height: 2.7rem;
+            }
+
+            &-img-sale {
+                width: 3.2rem;
+                height: 3.2rem;
+            }
+
+
+        }
+
+        &-free-ship {
+            justify-content: flex-start!important;
+        }
+
+        &-voucher {
+            justify-content: center !important;
+        }
+
+        &-sales {
+            justify-content: flex-end !important;
+        }
+    }
+}

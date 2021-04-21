@@ -1,0 +1,213 @@
+.section-on-top {
+    margin-top: 3rem;
+    
+    &__heading {
+        display: flex;
+        align-items: center;
+        
+
+        h1 {
+            font-size: 5rem;
+            font-weight: 550;
+            position: relative;
+        }
+
+        h1::after {
+            content: "";
+            position: absolute;
+            top: 66%;
+            right: -7%;
+            background: #B0BCC2;
+            width: 0.8rem;
+            height: 0.8rem;
+        }
+    }
+
+    &__banner {
+        width: 100%;
+        height: 100%;
+    }
+    
+}
+
+.section-heading-form  {
+    margin-top: 9rem;
+    h2 {
+        width: 100%;
+        font-size: 3rem;
+        font-weight: 450;
+        display: block;
+        padding-bottom: 1.5rem;
+        text-align: left;
+        border-bottom: 2px solid $color-primary;
+
+    }
+}
+
+.section-form {
+    margin-top: 8rem;
+
+    &-wrapper {
+        label {
+            height: 100%;
+            width: 100%;
+            @extend %label;
+        }
+
+        input[type=text] {
+            @extend %input;
+            width: 100%;
+            margin-bottom:4rem;
+            font-weight: 550;
+
+
+        
+        }
+        input::-webkit-input-placeholder {
+            font-size: 1.5rem;
+            font-weight: 550;
+        }
+
+       
+    }
+
+    .section-card {
+        background: #f9fbfb;
+        padding: 3.5rem 0;
+        &__wrapper {
+            display: flex;
+            justify-content: space-between;
+            padding-bottom: 3rem;
+            
+
+            &-heading {
+                font-size: 1.4rem;
+                font-weight: 500;
+                color: #838383;
+            }
+
+            &-number {
+                font-size: 1.6rem;
+                color: $color-black;
+                font-weight: 600;
+            }
+        }
+
+        &__wrapper:nth-child(4) {
+            padding-bottom: 10rem;
+            border-bottom: 2px solid $color-primary;
+        }
+
+        &__wrapper:last-child {
+            padding: 2rem 0 0;
+        }
+
+    }
+
+    .form-right {
+        background: #f9fbfb;
+        padding: 4rem 2rem;
+    }
+}
+
+.section-checkbox {
+
+        &__wrapper {
+            text-align: right;
+            input {
+                display: none;
+            }
+    
+            label{
+                position: relative;
+                user-select: none;
+                color: #838383;
+                font-weight:400;
+                font-size: 1.4rem;
+                cursor: pointer;
+                
+            }
+         
+            label::before {
+                content: "";
+                position: absolute;
+                top: 0.3rem;
+                right: 16rem;
+                border: 2px solid rgba(0, 0, 0, 0.3);
+                border-radius: 110rem;
+                background: transparent;
+                width: 1.5rem;
+                cursor: pointer;
+                height: 1.5rem;
+            }
+    
+            input:checked~label::before {
+             border-color: rgba($color-black, 1);
+            }
+        }
+        
+    
+
+
+}
+
+.section-payment {
+    h3 {
+        display: block ;
+        font-size: 3rem;
+        font-weight: 500;
+        color: $color-black;
+        margin: 4rem 0 3rem 0;
+        padding-bottom: 2rem;
+        border-bottom: 0.2rem solid $color-primary;
+    }
+
+    &__wrapper {
+        margin-bottom: 1.5rem;
+        
+        &-text {
+            font-size: 1.6rem;
+            font-weight: 450;
+            color: $color-666;
+            text-transform: capitalize;
+            margin-right: 2.5rem;
+        }
+        input {
+            display: none;
+        }
+
+        &-label {
+            position: relative;
+            font-size: 1.6rem;
+            color: $color-666;
+            cursor: pointer;
+            user-select: none;
+            margin-bottom: 0;
+        }
+
+        &-label::after {
+            content: "";
+            position: absolute;
+            right: -30px;
+            top: 30%;
+            width: 1.5rem;
+            height: 1.5rem;
+            border: 2px solid rgba($color-black , 0.4 );
+            border-radius: 100rem;
+            background: transparent;
+            cursor: pointer;
+
+
+        }
+
+        input:checked~&-label::after {
+            border-color:rgba($color-black , 1 );
+        }
+    }
+   
+}
+
+.section-btn {
+    margin: 6rem 0;
+    
+}

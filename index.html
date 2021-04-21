@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="font/Roboto-Light.ttf">
+    <link rel="stylesheet" href="font/Roboto-Bold.ttf">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    <div class="website">
+        <header class="header-wrapper">
+            <div class="header__top">
+                <div class="grid wide">
+                    <div class="">
+                        <div class="header__wrapper-top row">
+                            
+                            <div  class="header__logo  h-2 l-2 m-2 c-6">
+                                <img class="header__logo-icon" src="img/logo.png" alt="">
+                            </div>
+                            <!-- end logo -->
+                            <div class="header__menu h-6  l-8 m-8 pc c-0">
+                                <ul class="header__list">
+                                    <li class="header__list-item h-2 l-2 m-2">
+                                        <a href="index.html" class="header__list-item__link header__list-item--border">Home</a>
+                                    </li>
+        
+                                    <li class="header__list-item header__menu-submenu h-2 l-2 m-2">
+                                        <a href="category.html" class="header__list-item__link ">Shop</a>
+                                        <ul class="header__submenu">
+                                            <li class="header__submenu-item"><a href="product.html" class="header__submenuitem-text">product page</a> </li>
+                                            <li class="header__submenu-item"><a href="new violet/shopping cart.html" class="header__submenuitem-text">Shopping cart</a> </li>
+                                            <li class="header__submenu-item"><a href="new violet/check-out.html" class="header__submenuitem-text">Check out</a> </li>
+        
+                                            
+                                        </ul>
+                                    </li>
+        
+                                    <li class="header__list-item h-2 l-2 m-2 ">
+                                        <a href="product.html" class="header__list-item__link">About</a>
+                                    </li>
+                                    
+                                    <li class="header__list-item h-2 l-2 m-2">
+                                        <a href="new violet/contact.html" class="header__list-item__link">Contact</a>
+                                    </li>
+        
+                                    <li class="header__list-item h-2 l-2 m-2">
+                                        <a href="new violet/check-out.html" class="header__list-item__link">Blog</a>
+                                    </li>
+                                </ul>
+                            
+                            </div>
+                            <!-- end menu -->
+                            
+                            <div class="header_login-register header_login-register--wrapper h-2  pc l-0  m-0 c-12">
+                                <a href="" class="header__login header__login-register--open l-4">Login </a> <span>/</span>
+                                <a href="" class="header__register header__login-register--open l-4">Register</a>
+                            </div>
+                            <!-- end login and register -->
+        
+                            <div class="header__wrapper__selected header__wrapper__selected--wrapper h-2 l-2 m-2 c-6">
+                                <div class="header__search header__directional h-2 l-2 m-4 c-2">
+                                    <img src="img/search.png" alt="search">
+                                </div>
+                                <!-- end search -->
+                                <div class="header__man header__directional h-2 l-2 m-4 c-2">
+                                    <img src="img/man.png" alt="man">
+                                </div>
+                                <!-- end man -->
+                                <div class="haeader__bag header__directional h-2 l-2 m-4 c-2">
+                                    <img src="img/bag.png" alt="bag">
+                                    <span class="haeader__bag-text">2</span>
+                                </div>
+                                <!-- end bag -->
+                            </div>
+                            <!-- end selected -->
+        
+        
+                        </div>
+
+                    </div>
+                    <!--  end header-wrapper -->
+                </div>
+                <!-- end grid -->
+            </div>
+            <!--  end header-top -->
+            <div class="menu-mobi">
+                <ul class="header__list">
+                    <input type="checkbox"  id="mobi-checkbox"  class="mobi-checkbox-menu">
+                    <label class="header__mobi-menu__text" for="mobi-checkbox">
+                        <div class="mobi-wrapper-menu">
+                               <span class="">MENU</span>  
+                            <div class="menu__mobi-icon">
+                                <img class="menu__mobi__menu-icon" src="img/icon-menu.png" alt="">
+                            </div>
+                        </div>
+                        
+                       
+                    </label>
+                    <li class="header__list-item ">
+                        <a href="" class="header__list-item__link ">Home</a>
+                    </li>
+    
+                    <li class="header__list-item header__menu-submenu">
+                        <a href="" class="header__list-item__link ">Shop</a>
+                        <ul class="menu__mobi-list">
+                            <li class="header__submenu-item"><a href="" class="header__submenuitem-text">product page</a> </li>
+                            <li class="header__submenu-item"><a href="" class="header__submenuitem-text">Shopping cart</a> </li>
+                            <li class="header__submenu-item"><a href="" class="header__submenuitem-text">Check out</a> </li>
+                        </ul>
+                    </li>
+    
+                    <li class="header__list-item">
+                        <a href="" class="header__list-item__link">About</a>
+                    </li>
+                    
+                    <li class="header__list-item">
+                        <a href="" class="header__list-item__link">Contact</a>
+                    </li>
+    
+                    <li class="header__list-item">
+                        <a href="" class="header__list-item__link">Blog</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- end menu mobi -->  
+            <div class="header__bottom">
+                <div class="grid wide">
+                    <div class="row">
+                        <div class="header__bottom__banner">
+                           <div class="header__banner-1 header__banner-wrapper header__banner col h-4  l-4 m-4   ">
+                               <div class="header__bottom__img header__bottom__img--wrapper h-2 l-2  ">
+                                   <img src="img/delivery.png" alt="" class="banner__image">
+                               </div>
+                               
+                               <span class="header__bottom-text h-10 l-10 m-12 c-12">
+                                   free shipping on orders over $30 in USA 
+                               </span>
+                           </div>   
+                           <!-- end banner 1 -->
+                           <div class="header__banner-2 header__banner-wrapper col h-4 l-4 m-4">
+                               <div class="header__bottom__img h-2 l-2 m-3 ">
+                                   <img src="img/voucher.png" alt="" class="banner__image">
+                               </div>
+                               <span class="header__bottom-text header__text-banner-2 h-10 l-10 m-9 c-12">
+                                   20% student discount 
+                               </span>
+                           </div>
+                           <!-- end banner 2 -->
+                           <div class="header__banner-3 header__banner-wrapper header__banner col h-4 l-4 m-4  "> 
+                               <div class="header__bottom__img h-2 l-2   ">
+                                   <img src="img/sales.png" alt="" class="banner__image">
+                               </div> 
+                               
+                               <span class="header__bottom-text h-10 l-10 m-12 c-12">
+                                   30% of on dresses. Use code: 30 OFF
+                                </span>
+                           </div>
+                           <!--  end header 3 -->
+                       </div>
+                       <!--  end row -->
+
+                    </div>
+                    <!-- end header- bottom  banner  -->
+                </div>
+                <!-- end grid -->
+            </div>
+            <!-- end header bottm -->
+        </header>
+        <!-- end header------- -->
+        <div class="banner">
+            <div class="grid">
+                <div class="row">
+                    <div class="banner__wrapper-bnt col h-1 l-2 m-2 pc c-0">
+                        <div class="banner-derectional">
+                                <img class="banner-derectional-icon" src="img/left.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="banner__wrapper col h-11 l-10 m-10 c-12">
+                        <div class="banner__wrapper-container">
+                            <span class="banner__number-year ">2019</span><br />
+                            <span class="banner__text">Lookbook.</span><br />
+                            <div class="banner__btn">
+                                 <button class="btn"><a href="" class="bnt-banner"> SEE MORE</a> </button>
+                            </div>
+                            
+    
+                        </div>
+                        
+                    </div>
+
+                    
+                </div>
+    
+            </div>
+        </div>
+        <!-- end banner---------- -->   
+        <div class="container">
+            <div class="grid wide ">
+                
+                <div class="row">
+                  <div class="container-1__wrapper col h-4 l-4  m-4  c-12" >
+                            <img class="container-1__img" src="img/free-shipping.png" alt="">
+                            <h4 class="container-1__title" >Free shipping</h4>
+                            <p class="container-1__text">Fusce urna quam, euismod sit amet mollis quis, vestibulum quis velit. Vesti bulum mal esuada aliquet libero viverra cursus. </p>
+                        
+                    </div>
+                    <div class="container-1__wrapper wide col h-4 l-4 m-4 c-12" >
+                        <img class="container-1__img" src="img/money-back.png" alt="">
+                        <h4 class="container-1__title" >Free shipping</h4>
+                        <p class="container-1__text">Urna quam, euismod sit amet mollis quis, vestibulum quis velit. Vesti bulum mal esuada aliquet libero viverra cursus.</p>
+                        
+                    </div>
+                    <div class="container-1__wrapper col h-4 l-4 m-4 c-12" >
+                        <img class="container-1__img" src="img/online-support.png" alt="">
+                        <h4 class="container-1__title" >Free shipping</h4>
+                        <p class="container-1__text">Urna quam, euismod sit amet mollis quis, vestibulum quis velit. Vesti bulum mal esuada aliquet libero viverra cursus. </p>
+                        
+                    </div>
+                </div>
+                <!--  end container -1 --> 
+                <div class="banner-2 ">
+                    <div class="row">
+                        <div class=" banner-2__left-wrapper-img col h-6 l-6 m-12 c-12 ">
+                            <div class=" banner-2__left-wrapper banner-2__left-left-top h-12  l-12 c-12">
+                                <img src="img/f-box-1.jpg" class="banner-2__left-img banner-2__left-img--1" alt="">
+                               <div class="banner-2__left-node">
+                                    <span class="banner-2__left-text-low" >2019 Party</span>
+                                    <span class="banner-2__left-text-bold">Jewelry</span>
+                                    <span class="banner-2__left-text-light">TREND ALLERT</span>
+                                    <a href="" class="banner__left-link">SEE MORE</a>
+                               </div>
+                            </div>
+                            <div class=" banner-2__left-left-bottom h-12 l-12 c-12">
+                                <img src="img/f-box-2.jpg" class="banner-2__left-img banner-2__banner--img" alt="">
+                                <div class="banner-2__left-bottom-wrapper">
+                                    <span class="banner-2__left-text__bottom-low banner-2__left-text__bottom-low--color" >2019 Trend</span>
+                                    <span class="banner-2__left-text__bottom-bold">Footwear</span>
+                                    <span class="banner-2__left-text__bottom-light banner-2__left-text__bottom-light--color">BOLD & BLACK</span>   
+    
+                                </div>                           
+    
+                            </div>
+                        </div>
+                        <div class="banner-2__right-wrapper-img banner-2__img col h-6 l-6 m-12 c-12">
+                            <img src="img/f-box-3.jpg" class="banner-right-img"  alt="">
+                            <div class="banner-2__wrapper-banner-right">
+                                <span class="banner-2__right-text-low   " >2019 Party</span>
+                                <span class="banner-2__right-text-bold  ">Collection</span>
+                                <span class="banner-2__right-text-light ">TREND ALLERT</span>
+                            </div>
+                            
+                        </div>
+
+                    </div>
+                </div>         
+
+                    
+                
+                <!-- end banner-2 -->
+                <div class="container__wrapper-nav-headding">
+                    <div class="container__headding">
+                        <h2 class="container__headding-title">Latest Product</h2>
+                    </div>
+                    <nav class="container__navbar">
+    
+                        <ul class="navbar-list">
+                            <li class="navbar-list-items navbar-list-items--active">All</li>
+                            <li class="navbar-list-items">dresses</li>
+                            <li class="navbar-list-items">Bags</li>
+                            <li class="navbar-list-items">shoes</li>
+                            <li class="navbar-list-items">Accesories</li>
+    
+                        </ul>
+                    </nav>
+
+                </div>
+                <!--  end container headding-nav -->
+                <div class="product">
+                    <div class="row">
+                        <div class=" product__wrapper wide col h-3 l-3 m-6 c-12">
+                            <span class="product__product-text-1357">
+                                new
+                            </span>
+                                <a href=""><img src="img/img-1.jpg" class="product__img" alt=""></a>
+                            <div class="product__wrapper-text">
+                                <span class="product__node">Green dress with details</span>
+                                <p class="product__money"> $22.90</p>
+                            </div>
+                        </div>
+                        <div class="product__wrapper wide col h-3 l-3 m-6 c-12">
+                            <span class="product__product-text-26">
+                                sale
+                            </span>
+                            <a href=""><img src="img/img-2.jpg" alt="" class="product__img "></a>
+                            <div class="product__wrapper-text">
+                                <span class="product__node">Green dress with details</span>
+                                <p class="product__money"> $22.90</p>
+                            </div>
+                        </div>
+                        <div class="product__wrapper wide col h-3 l-3 m-6 c-12">
+                            <span class="product__product-text-1357">
+                                new
+                            </span>
+                            <a href=""><img src="img/img-3.jpg" alt="" class="product__img "></a>
+                            <div class="product__wrapper-text">
+                                <span class="product__node">Green dress with details</span>
+                                <p class="product__money"> $22.90</p>
+                            </div>
+                        </div>
+                        <div class="product__wrapper wide col h-3 l-3 m-6 c-12">
+                            <span class="product__product-text-48">
+                                popular
+                            </span>
+                            <a href=""><img src="img/img-4.jpg" alt="" class="product__img "></a>
+                            <div class="product__wrapper-text">
+                                <span class="product__node">Green dress with details</span>
+                                <p class="product__money"> $22.90</p>
+                            </div>
+                        </div>
+                        <div class="product__wrapper wide col h-3 l-3 m-6 c-12">
+                            <span class="product__product-text-1357">
+                                new
+                            </span>
+                            <a href=""><img src="img/img-5.jpg" alt="" class="product__img "></a>
+                            <div class="product__wrapper-text">
+                                <span class="product__node">Green dress with details</span>
+                                <p class="product__money"> $22.90</p>
+                            </div>
+                        </div>
+                        <div class="product__wrapper wide col h-3 l-3 m-6 c-12">
+                            <span class="product__product-text-26">
+                                sales
+                            </span>
+                            <a href=""><img src="img/img-6.jpg" alt="" class="product__img "></a>
+                            <div class="product__wrapper-text">
+                                <span class="product__node">Green dress with details</span>
+                                <p class="product__money"> $22.90</p>
+                            </div>
+                        </div>
+                        <div class="product__wrapper wide col h-3 l-3 m-6 c-12">
+                            <span class="product__product-text-1357">
+                                new
+                            </span>
+                            <a href=""><img src="img/img-7.jpg" alt="" class="product__img "></a>
+                            <div class="product__wrapper-text">
+                                <span class="product__node">Green dress with details</span>
+                                <p class="product__money"> $22.90</p>
+                            </div>
+                        </div>
+                        <div class="product__wrapper wide col h-3 l-3 m-6 c-12">
+                            <span class="product__product-text-48">
+                                popular
+                            </span>
+                            <a href=""><img src="img/img-8.jpg" alt="" class="product__img "></a>
+                            <div class="product__wrapper-text">
+                                <span class="product__node">Green dress with details</span>
+                                <p class="product__money"> $22.90</p>
+                            </div>
+                        </div>
+                        
+    
+                    </div>
+
+                </div>
+                <!--  end product -->
+                <div class="container-2">
+                    <div class="row">
+                        <div class="container-2__text-titel wide col h-6 l-6 m-12 c-12">
+                            <h3 class="container-2__text-year"> 2019</h3>
+                            <h3 class="container-2__text-text">#lookbook</h3>
+                            <p class="container-2__long-text">
+                                Fusce urna quam, euismod sit amet mollis quis, vestibulum quis velit. Vestibulum malesuada aliquet 
+                                libero viverra cursus. Aliquam erat volutpat. Morbi id dictum quam, ut commodo lorem. In at
+                                    nisi nec arcu porttitor aliquet vitae at dui. Sed sollicitudin nulla non leo viverra scelerisque. 
+                                    Phasellus facilisis lobortis metus, sit amet viverra lectus finibus ac. Aenean non felis dapibus,
+                                    placerat libero auctor, ornare ante. Morbi quis ex eleifend, sodales nulla vitae, scelerisque ante. 
+                                Nunc id vulputate dui. Suspendisse consectetur rutrum metus nec scelerisque. s
+                            </p>
+                            <a href="#" class="container-2__btn"> SEE MORE</a>
+                        </div>
+                        <div class="container-2__banner wide col h-6 l-6 m-12 c-12">
+                            <img src="img/lookbok.jpg" alt="" class="container-2__banner-img">
+                            <div class="container-2__text">
+                                <h3 class="container-2__text-fashion">
+                                    fashion
+                                </h3>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container__logo row container__logo--wrappe">
+                    <div class="container__logo-container  col h-1-5  l-1-5 m-1-5">
+                        <img src="img/logo-1.png" class="container__logo-img" alt="">
+                    </div>
+                    <div class="container__logo-container  col h-1-5  l-1-5 m-1-5">
+                        <img src="img/logo-2.png" class="container__logo-img" alt="">
+                    </div>
+                    <div class="container__logo-container  col h-1-5  l-1-5 m-1-5">
+                        <img src="img/logo-3.png" class="container__logo-img" alt="">
+                    </div>
+                    <div class="container__logo-container  col h-1-5  l-1-5 m-1-5">
+                        <img src="img/logo-4.png" class="container__logo-img" alt="">
+                    </div>
+                    <div class="container__logo-container  col h-1-5  l-1-5 m-1-5">
+                        <img src="img/logo-5.png" class="container__logo-img" alt="">
+                    </div>
+                 </div>
+             
+         </div>       
+    
+        </div>
+        <footer class="footer">
+            <div class="grid wide">
+                <div class="footer__input">
+                    <input type="text" class="footer__input-footer" placeholder="Your email address"/>
+                    <span class="footer__input-text">SUBSCRIBE TO OUR NEWSLETTER</span>
+                </div>
+    
+                <nav class="footer__nav">
+                    <div class=" row">
+                        <ul class="footer__list col h-3 l-3 m-6 c-12">
+                            <h2 class="footer__headding">About us</h2>
+                            <li class="footer__items">about us </li>
+                            <li class="footer__items">Jobs</li>
+                            <li class="footer__items">Shipping</li>
+                            <li class="footer__items">Contact Us </li>
+                            <li class="footer__items">about us </li>
+                        </ul>
+                        <ul class="footer__list col h-3 l-3 m-6 c-12">
+                            <h2 class="footer__headding">Customer Care</h2>
+                            <li class="footer__items">Search </li>
+                            <li class="footer__items">Privacy Policy</li>
+                            <li class="footer__items">2019 Lookbook</li>
+                            <li class="footer__items">Shipping & Delivery </li>
+                            <li class="footer__items">Gallery</li>
+                        </ul>
+                        <ul class="footer__list col h-3 l-3 m-6 c-12">
+                            <h2 class="footer__headding">Our Services</h2>
+                            <li class="footer__items">Free Shipping </li>
+                            <li class="footer__items">Free Returnes</li>
+                            <li class="footer__items">Our Franchising</li>
+                            <li class="footer__items">Terms and conditions </li>
+                            <li class="footer__items">Privacy Policy</li>
+                        </ul>
+                        <ul class="footer__list col h-3 l-3 m-6 c-12">
+                            <h2 class="footer__headding">Information</h2>
+                            <li class="footer__items">Payment methods</li>
+                            <li class="footer__items">Times and shipping costs</li>
+                            <li class="footer__items">Product Returns</li>
+                            <li class="footer__items">Shipping methods</li>
+                            <li class="footer__items">Conformity of the products</li>
+                        </ul>
+    
+                    </div>
+                </nav>
+    
+                
+            </div>
+                    <div class="footer__bottom">
+                        <div class="grid wide">
+                            
+                                <nav class="footer__bottom-nav  ">
+                                    <ul class="footer__bottom-nav-list  row">
+                                        <li class="footer__bootom-nav-item col h-2  l-2 m-2 c-2">
+                                            <a href="" class="footer__bottom-nav-link ">
+                                             <img src="img/icon.png" alt="" class="footer__bottom-icon"> <span class="footer__bootom-text-node"> INSTAGRAM </span>
+                                            </a> 
+                                        </li>
+                                        <li class="footer__bootom-nav-item col h-2  l-2 m-2 c-2">
+                                            <a href="" class="footer__bottom-nav-link ">
+                                             <img src="img/icon.png" alt="" class="footer__bottom-icon"> <span class="footer__bootom-text-node"> PINTERERT </span>
+                                            </a> 
+                                        </li>
+                                        <li class="footer__bootom-nav-item col h-2  l-2 m-2 c-2">
+                                            <a href="" class="footer__bottom-nav-link ">
+                                             <img src="img/icon.png" alt="" class="footer__bottom-icon"> <span class="footer__bootom-text-node"> facebook  </span>
+                                            </a> 
+                                        </li>
+                                        <li class="footer__bootom-nav-item col h-2  l-2 m-2 c-2">
+                                            <a href="" class="footer__bottom-nav-link ">
+                                             <img src="img/icon.png" alt="" class="footer__bottom-icon"> <span class="footer__bootom-text-node"> TWITTER   </span>
+                                            </a> 
+                                        </li>
+                                        <li class="footer__bootom-nav-item col h-2  l-2 m-2 c-2">
+                                            <a href="" class="footer__bottom-nav-link ">
+                                             <img src="img/icon.png" alt="" class="footer__bottom-icon"> <span class="footer__bootom-text-node"> YOUTUBE   </span>
+                                            </a> 
+                                        </li>
+                                        <li class="footer__bootom-nav-item col h-2  l-2 m-2 c-2">
+                                            <a href="" class="footer__bottom-nav-link ">
+                                             <img src="img/icon.png" alt="" class="footer__bottom-icon"> <span class="footer__bootom-text-node"> TUMBLR    </span>
+                                            </a> 
+                                        </li>
+        
+                                    </ul>
+                                </nav>
+                                <p class="footer__bottom-creater-websive">Copyright ©2020 All rights reserved | This template is made with by
+                                     <a href="#" class="footer__bottom-creater-websive-text">Colorlib</a> 
+                                </p>
+                            
+                        </div>
+                    </div>
+    
+            
+    
+        </footer>
+        <!-- end footer----- -->
+
+    </div>

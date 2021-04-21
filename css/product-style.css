@@ -1,0 +1,28 @@
+
+@media (max-width: 739px) {
+
+    .container-title,.container__product-demo-img,.container__product-demo__introduce{
+        padding: 0 16px !important;
+    }
+
+    .container-link  {
+        margin-left: 0;
+        padding: 0 16px;
+    }
+
+    .container__product_link-product,.container__product__quantity {
+        width: 100px;
+        height: 35px;
+        font-size: 0.7em;
+        margin-right: 16px;
+    }
+
+    .container-headding-title {
+        font-size: 2rem;
+    }
+
+    .product__wrapper {
+        padding: 0 16px;
+    }
+    
+}

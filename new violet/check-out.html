@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="font/Roboto-Thin.ttf">
+    <link rel="stylesheet" href="font/Roboto-Bold.ttf">
+    <link rel="stylesheet" href="font/Roboto-Light.ttf">
+    <link rel="stylesheet" href="font/Roboto-Black.ttf">
+    <link rel="stylesheet" href="font/Roboto-Medium.ttf">
+    <link rel="stylesheet" href="font/Roboto-Regular.ttf">
+    <link rel="stylesheet" href="font/Roboto-Italic.ttf">
+    <link rel="stylesheet" href="font/Roboto-ThinItalic.ttf">
+    <link rel="stylesheet" href="font/Roboto-BoldItalic.ttf">
+    <link rel="stylesheet" href="font/Roboto-LightItalic.ttf">
+    <link rel="stylesheet" href="font/Roboto-BlackItalic.ttf">
+    <link rel="stylesheet" href="font/Roboto-MediumItalic.ttf">
+    <link rel="stylesheet" href="css/style-check-out.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <header class="header">
+        <div class="container-fluid header__wrapper">
+            <!-- header on top -->
+            <div class="header__logo-primary">
+                <img src="img/logo.png" alt="logo">
+            </div>
+
+            <ul class="header__menu">
+                <li class="header__menu-item">
+                    <a href="../index.html" class="header__menu-item-link header__menu-item-link--active">
+                        Home
+                    </a>
+                </li>
+                <li class="header__menu-item">
+                    <a href="shopping cart.html" class="header__menu-item-link">
+                        Shop
+                    </a>
+                    <ul class="header__menu-item__sub-menu">
+                        <li><a href="../product.html">product page</a> </li>
+                        <li><a href="shopping cart.html">Shopping cart</a> </li>
+                        <li><a href="check-out.html">Check out</a> </li>
+                    </ul>
+
+                </li>
+                <li class="header__menu-item">
+                    <a href="../product.html" class="header__menu-item-link">
+                        About
+                    </a>
+                </li>
+                <li class="header__menu-item">
+                    <a href="check-out.html" class="header__menu-item-link">
+                        Blog
+                    </a>
+                </li>
+                <li class="header__menu-item">
+                    <a href="contact.html" class="header__menu-item-link">
+                        Contact
+                    </a>
+                </li>
+            </ul>
+
+            <div class="header__login">
+                <a href="#" class="header__login-register header__login-user">Register /</a>
+                <a href="#" class="header__login-sign-in header__login-user">Sign in</a>
+            </div>
+
+            <div class="header__directional">
+                <div class="header__directional-icon ">
+                    <img src="img/search.png" alt="search" class="header__directional-icon-wrapper">
+                </div>
+
+                <div class="header__directional-icon ">
+                    <img src="img/man.png" alt="man" class="header__directional-wrapper">
+                </div>
+
+                <div class="header__directional-icon ">
+                    <img src="img/bag.png" alt="bag" class="header__directional-icon-wrapper ">
+                    <span class="header__directional-icon-number-card">2</span>
+                </div>
+
+            </div>
+
+            <!-- header abs -->
+
+           
+
+        </div>
+
+        <div class="header__abs d-flex">
+            <div class="header__abs-wrapper header__abs-free-ship">
+                <img src="img/free-shipping.png" alt="img" class="header__abs-wrapper-img header__abs-wrapper-img-free-ship">
+                Free shipping on orders over $30 in USA
+            </div>
+            <div class="header__abs-wrapper header__abs-voucher">
+                <img src="img/voucher.png" alt="img" class="header__abs-wrapper-img header__abs-wrapper-img-voucher">
+                20% Student Discount
+            </div>
+            <div class="header__abs-wrapper header__abs-sales">
+                <img src="img/sales.png" alt="img" class="header__abs-wrapper-img header__abs-wrapper-img-sales">
+                30% off on dresses. Use code: 30OFF
+            </div>
+
+
+        </div>
+
+    </header>
+
+    <div class="container">
+        <section class="section-on-top ">
+            <div class="row">
+                <div class="section-on-top__heading col-xl-4 col-lg-4">
+                    <h1 class="section-on-top__heading-text ">
+                        Checkout 
+                    </h1>
+                </div>
+        
+                <div class="section-on-top__banner col-xl-8 col-lg-8">
+                    <img src="img/add.png" alt="img" class="section-on-top__banner">
+                </div>
+    
+            </div>
+        </section>
+    
+        <section class="section-heading-form ">
+            <div class="row">
+                <div class="col-xl-12 col-lg-12">
+                    <h2>
+                        Your information
+                    </h2>
+                </div> 
+                
+            </div>
+            
+        </section>
+        
+    
+        <section class="section-form ">
+            <div class="row">
+                <div class="section-form-wrapper col-xl-9 col-lg-9">
+                   <div class="row section-form-wrapper-down ">
+                       <div class="col-xl-2 col-lg-2 col-sm-12 " >
+                           <label for="" class="section-form-wrapper__name-label">Name*</label>
+                       </div>
+                       <div class="col-xl-5 col-lg-5 col-sm-12">
+                        <input type="text"placeholder="First name" >
+    
+                       </div>
+                       <div class="col-xl-5 col-lg-5 col-sm-12">
+                            <input type="text" placeholder="Last name" >
+                       </div>
+                   </div>
+    
+                   <div class="row section-form-wrapper-down ">
+                        <div class="col-xl-2 col-lg-2" >
+                            <label for="" class="section-form-wrapper__name-label">Street Address*</label>
+                        </div>
+                        <div class="col-xl-10 col-lg-10">
+                        <input type="text">
+    
+                       
+                            <input type="text" >
+                        </div>
+                    </div>
+                    <div class="row section-form-wrapper-down ">
+                        <div class="col-xl-2 col-lg-2" >
+                            <label for="" class="section-form-wrapper__name-label">City*</label>
+                        </div>
+                        <div class="col-xl-10 col-lg-10">
+                             <input type="text">
+                        </div>
+                    </div>
+                    <div class="row section-form-wrapper-down ">
+                        <div class="col-xl-2 col-lg-2" >
+                            <label for="" class="section-form-wrapper__name-label">Country</label>
+                        </div>
+                        <div class="col-xl-10 col-lg-10">
+                             <input type="text">
+                        </div>
+                    </div>
+                    <div class="row section-form-wrapper-down ">
+                        <div class="col-xl-2 col-lg-2" >
+                            <label for="" class="section-form-wrapper__name-label">Post Code/ZIP* </label>
+                        </div>
+                        <div class="col-xl-10 col-lg-10">
+                             <input type="text">
+                        </div>
+                    </div>
+                    <div class="row section-form-wrapper-down ">
+                        <div class="col-xl-2 col-lg-2" >
+                            <label for="" class="section-form-wrapper__name-label">Phone*</label>
+                        </div>
+                        <div class="col-xl-10 col-lg-10">
+                             <input type="text">
+                        </div>
+                    </div>    
+    
+    
+                </div>
+    
+                <div class="col-xl-3 col-lg-3" > 
+                    <div class="form-right">
+                        <div class="section-card__wrapper">
+                            <span class="section-card__wrapper-heading">product</span>
+                            <span class="section-card__wrapper-number">Blue Dotted Shirt</span>
+                        </div>
+                
+                        <div class="section-card__wrapper">
+                            <span class="section-card__wrapper-heading">price</span>
+                            <span class="section-card__wrapper-number">$29</span>
+                        </div>
+                    
+                        <div class="section-card__wrapper">
+                            <span class="section-card__wrapper-heading">Quantity</span>
+                            <span class="section-card__wrapper-number">1</span>
+                        </div>
+                  
+                        <div class="section-card__wrapper">
+                            <span class="section-card__wrapper-heading">shipping</span>
+                            <span class="section-card__wrapper-number">$10 </span>
+                        </div>
+        
+                        <div class="section-card__wrapper">
+                            <span class="section-card__wrapper-heading">Total</span>
+                            <span class="section-card__wrapper-number">$39 </span>
+                        </div>
+    
+                    </div>
+                       
+                </div>
+                   
+                
+    
+            </div>
+    
+    
+        </section>
+
+        <section class="section-checkbox"> 
+            <div class="row ">
+                <div class="col-xl-9 col-lg-9" >
+                    <div class="section-checkbox__wrapper">
+                        <input type="checkbox" id="one">
+                        <label for="one" class="one-checkbox">Ship to different address</label>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+    
+        <section class="section-payment">
+            <div class="row">
+                <div class="col-xl-12 col-lg-12">
+                    <h3>
+                        Payment
+                    </h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-12 col-lg-12">
+                      <div class="section-payment__wrapper">
+                        <span class="section-payment__wrapper-text">paypal</span>
+                        <img src="img/paypal.jpg" alt="anh">
+                      </div>
+                </div>
+              
+            </div>
+            <div class="row">
+                <div class="col-xl-12 col-lg-12">
+                    <div class="section-payment__wrapper">
+                        <span class="section-payment__wrapper-text">Credit / Debit card</span>
+                        <img src="img/mastercard.jpg" alt="anh">
+                    </div>
+                </div>
+                
+            </div>
+            <div class="row">
+                <div class="col-xl-12 col-lg-12">
+                     <div class="section-payment__wrapper">
+                        <input type="checkbox" id="check">
+                        <label for="check" class="section-payment__wrapper-label">Pay when you get the package </label>
+                    </div>
+                </div>
+               
+            </div>
+
+        </section>
+        
+        <section class="section-btn ">
+            <div class="row">
+                <div class="col-xl-12 col-lg-12">
+                    <button class="btn btn-white btn-btn">place your order</button>
+                </div>
+            </div>
+        </section>
+    
+
+    </div>
+
+    <footer class="footer">
+        <div class="footer-wrapper-on-top">
+            <div class="container">
+                    <div class="footer__submit">
+                        <div class="footer__submit-wrapper">
+                            <input type="text" name="input" placeholder="Your email address"  class="footer__submit-wrapper-input">
+                            <span class="footer__submit-wrapper-text">SUBSCRIBE TO OUR NEWSLETTER</span>
+                        </div>
+                    
+                    </div>
+
+                    <div class="footer__line-in-table">
+                        <div class="row">
+                            <div class="col-xl-3 col-lg-3">
+                                <div class="footer__line-in-table-heading">
+                                    About us
+                                </div>
+                                <ul class="footer__line-in-table-list">
+
+                                    <li class="footer__line-in-table-list-item">
+                                        About Us
+                                    </li>
+                                    <li class="footer__line-in-table-list-item">
+                                        Community
+                                    </li>
+                                    <li class="footer__line-in-table-list-item">
+                                        Jobs
+                                    </li>
+                                    <li class="footer__line-in-table-list-item">
+                                        Shipping
+                                    </li>
+                                    <li class="footer__line-in-table-list-item">
+                                        Contact Us
+                                    </li>
+
+                                </ul>
+                                
+                            </div>
+                            <div class="col-xl-3 col-lg-3">
+                                <div class="footer__line-in-table-heading">
+                                    Our Services
+                                </div>
+                                <ul class="footer__line-in-table-list">
+
+                                    <li class="footer__line-in-table-list-item">
+                                        Free Shipping
+                                    </li>
+                                    <li class="footer__line-in-table-list-item">
+                                        Free Returnes
+                                    </li>
+                                    <li class="footer__line-in-table-list-item">
+                                        Our Franchising
+                                    </li>
+                                    <li class="footer__line-in-table-list-item">
+                                        Terms and conditions
+                                    </li>
+                                    <li class="footer__line-in-table-list-item">
+                                        Privacy Policy
+                                    </li>
+
+                                </ul>
+                                
+                            </div>
+                            <div class="col-xl-3 col-lg-3">
+                                <div class="footer__line-in-table-heading">
+                                    Customer Care
+                                </div>
+                                <ul class="footer__line-in-table-list">
+
+                                    <li class="footer__line-in-table-list-item">
+                                        Search
+                                    </li>
+                                    <li class="footer__line-in-table-list-item">
+                                        Privacy Policy
+                                    </li>
+                                    <li class="footer__line-in-table-list-item">
+                                        2019 Lookbook
+                                    </li>
+                                    <li class="footer__line-in-table-list-item">
+                                        Shipping & Delivery
+                                    </li>
+                                    <li class="footer__line-in-table-list-item">
+                                        Gallery
+                                    </li>
+
+                                </ul>
+                                
+                            </div>
+                            <div class="col-xl-3 col-lg-3">
+                                <div class="footer__line-in-table-heading">
+                                    Information
+                                </div>
+                                <ul class="footer__line-in-table-list">
+
+                                    <li class="footer__line-in-table-list-item">
+                                        Payment methods
+                                    </li>
+                                    <li class="footer__line-in-table-list-item">
+                                        Times and shipping costs
+                                    </li>
+                                    <li class="footer__line-in-table-list-item">
+                                        Product Returns
+                                    </li>
+                                    <li class="footer__line-in-table-list-item">
+                                        Shipping methods
+                                    </li>
+                                    <li class="footer__line-in-table-list-item">
+                                        Conformity of the products
+                                    </li>
+
+                                </ul>
+                                
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+        <div class="footer__bottom">
+            <div class="container">
+                <div class="footer__bottom-content">
+                            <a href="" class="footer-bottom__wrapper">
+                                <img src="img/icon.png" alt="icon" class="footer-bottom__wrapper-img">
+                                <span>
+                                    INSTAGRAM
+                                </span> 
+                            </a>
+                            <a href="" class="footer-bottom__wrapper">
+                                <img src="img/icon.png" alt="icon" class="footer-bottom__wrapper-img">
+                                <span>
+                                    INSTAGRAM
+                                </span> 
+                            </a>
+                            <a href="" class="footer-bottom__wrapper">
+                                <img src="img/icon.png" alt="icon" class="footer-bottom__wrapper-img">
+                                <span>
+                                    INSTAGRAM
+                                </span> 
+                            </a>
+                            <a href="" class="footer-bottom__wrapper">
+                                <img src="img/icon.png" alt="icon" class="footer-bottom__wrapper-img">
+                                <span>
+                                    INSTAGRAM
+                                </span> 
+                            </a>
+                            <a href="" class="footer-bottom__wrapper">
+                                <img src="img/icon.png" alt="icon" class="footer-bottom__wrapper-img">
+                                <span>
+                                    INSTAGRAM
+                                </span> 
+                            </a>
+                </div>
+                <div class="row">
+                    <div class="footer__bottom-make">
+                        Copyright ©2020 All rights reserved | This template is made with by <span> trịnh hồng thức</span>
+                    </div>
+                </div>
+                
+
+            </div>
+
+        </div>
+    </footer>
+ 
+
+
+</body>
+</html>

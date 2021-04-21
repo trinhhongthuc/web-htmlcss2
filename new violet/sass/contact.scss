@@ -1,0 +1,127 @@
+@import "layout/header";
+@import "base/base";
+@import "base/animation";
+@import "abstract/variable";
+@import "component/btn";
+@import "layout/footer";
+
+
+// @import "component/section";
+
+
+
+.section-on-top {
+    margin-top: 3rem;
+    
+    &__heading {
+        display: flex;
+        align-items: center;
+        
+
+        h1 {
+            font-size: 5rem;
+            font-weight: 550;
+            position: relative;
+        }
+
+        h1::after {
+            content: "";
+            position: absolute;
+            top: 66%;
+            right: -7%;
+            background: #B0BCC2;
+            width: 0.8rem;
+            height: 0.8rem;
+        }
+    }
+
+    &__banner {
+        width: 100%;
+        height: 100%;
+    }
+    
+}
+
+.section-wrapper {
+    margin-top: 9rem;
+    margin-bottom: 10rem;
+
+    .section-left {
+      
+        input[type=text] {
+            width: 100%;
+            color: $color-text;
+            border:none;
+            outline: none;
+            padding: 1.5rem 0;
+            font-size: 1.4rem;
+            border-bottom: 2px solid $color-primary;
+            text-transform: capitalize;
+
+
+        }
+
+        &__name {
+            width: 100%;
+        }
+
+        &__text {
+            width: 100%;
+            border: none;
+            outline: none;
+            font-size: 1.4rem;
+            font-weight: 500;
+            padding:1.5rem 0;
+            height: 21rem;
+            border-bottom: 2px solid $color-primary;
+            resize: none;
+            text-transform: capitalize;
+        }
+        .section-btn__btn {
+            margin-top: 5rem;
+            width: 30%;
+            float: right;
+            padding: 1.6rem 0;
+            background: $color-white;
+    
+        }
+
+    }
+
+    .section-right {
+        nav {
+            width: 100%;
+            background: $color-white;
+            ul {
+               
+                padding: 1rem 1.5rem 0 12rem;
+                h3 {
+                    font-size: 1.8rem;
+                    color: $color-black;
+                    padding-bottom: em;
+                }
+
+                li {
+                    list-style: none;
+                    font-size: 1.4rem;
+                    color: $color-text;
+
+                }
+            }
+            ul:not(:last-child) {
+                margin-bottom: 4rem;
+            }
+        }
+    }
+}
+
+
+
+.section-img {
+    margin-bottom: 10rem;
+    img {
+        width: 100%;
+        height: 56rem;
+      
+    }
+}

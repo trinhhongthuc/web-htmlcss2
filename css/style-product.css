@@ -1,0 +1,240 @@
+
+.wrapper-container {
+
+}
+
+
+.container-title {
+    margin: 40px 0 100px 0 ;
+}
+
+
+.container-title__title  {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.container-title__text {
+    color: #000;
+    font-size: 3.2rem;
+    font-weight: 500;
+}
+
+.container-title__text-2 {
+    background: var(--primary--color);
+    width: 6px;
+    height: 6px;
+    display: inline-block;
+    margin-left: -10px;
+}
+
+.container-title__list {
+    list-style: none;
+    display: flex;
+    margin-top: 8px;
+    margin-bottom: 30px;
+}
+
+.container-title__items {
+    margin-right: 4px;
+}
+
+.container-title__link {
+    color: #888;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.container-title__link--color-back {
+    color: #000;
+}
+
+.container-title__banner  {
+    width: 100%;
+}
+
+.container-title__banner-img {
+    width: 100%;
+}
+
+/* ---------------------- container-title----------- */
+
+.container-link {
+    display: flex;
+    margin-left: 14px;
+}
+
+.container-item-link {
+    color:#777;
+    margin-right: 25px;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+/*  end container link */
+
+.container__product-demo {
+    margin-top: 50px;
+}
+
+.container__product-demo-img {
+    position: relative;
+}
+
+.container__product-demo-img-product {
+    width: 100%;
+    height: 100%;
+}
+
+.container__product-demo-text {
+    position: absolute;
+    top: 5%;
+    left: 6%;
+    background-color: #000;
+    color: var(--white);
+    border-radius: 1000px;
+    width: 60px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.container__product-demo__directional-left {
+    content: "";
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background: var(--primary--color);
+    border-radius: 100px;
+    bottom: 3%;
+    left: 45%;
+    cursor: pointer;
+}
+.container__product-demo__directional-right {
+    content: "";
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background: var(--white);
+    border-radius: 100px;
+    bottom: 3%;
+    right: 47%;
+    cursor: pointer;
+
+}
+
+.container__product-demo__introduce {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.container__product-demo-title {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.container__product-demo-money {
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 22px 0;
+}
+
+.container__product-star-img {
+    width: 22px;
+    height: 22px;
+    padding: 0 0 42px 0;
+    padding-right: 4px;
+}
+
+
+
+.container__product-citation {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    padding-bottom: 45px;
+    color: #888;
+}
+
+.container__product-category,.container__product-tag {
+    font-size: 0.9rem;
+    color: #000;
+    font-weight: 500;
+    padding: 4px 0;
+}
+.container__product-category-name,.container__product-tag-name {
+    color: #777;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+
+.container__product-quantity-add-cart {
+    display: flex;
+    margin: 60px 0 80px 0;
+}
+
+.container__product__quantity {
+    border: 2px solid rgba(0, 0, 0, 0.09);
+    border-radius: 100px;
+    display: flex;
+    width: 148px;
+    height: 45px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 40px;
+   
+
+}
+
+.container__product_link-product {
+    border: 2px solid var(--primary--color);
+    border-radius: 100px;
+    display: flex;
+    width: 148px;
+    height: 45px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 40px;
+   
+    
+}
+
+.container__product__back-down,.container__product__next-up {
+    color: #555;
+    font-size: 1.2rem;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 0 2px;
+
+}
+
+.container__product__center-number {
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 0 16px;
+
+}
+
+.container__product__link-cart {
+    color: #444;
+    font-weight: 500;
+}
+
+.container__product__bottom-text1 {
+    color: #000; 
+    font-weight: 500;
+    margin-right: 16px;
+}
+/*  end container -product */
+
+.container-headding {
+    text-align: center;
+    margin: 80px 0 60px 0;
+    font-size: 2rem;
+}
+
+.product__node {
+    font-weight: 500;
+}
